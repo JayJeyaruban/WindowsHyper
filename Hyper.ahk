@@ -39,6 +39,7 @@ return
 ~Capslock & 4::End
 ~Capslock & 0::Home
 ~Capslock & o::Send {End}{Enter}
+~Capslock & x::Delete
 
 ;; Mac-like Cmd + backspace
 ~Capslock & Backspace::Send {Shift down}{Home down}{Home up}{Shift up}{Backspace}
